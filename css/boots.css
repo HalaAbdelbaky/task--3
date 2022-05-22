@@ -1,0 +1,117 @@
+/* global.......... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* small screen */
+@media (min-width:768px){
+    .container {
+        width: 750px!important;
+    }
+}
+/* medium screen */
+@media (min-width:992px){
+    .container{
+        width: 970px!important;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px!important;
+    }
+}
+body{
+    background-color:#666!important;
+    font-family:'Work Sans', sans-serif;}
+     /* 'Comic Neue', cursive;
+} */
+#main:hover{
+text-shadow:10px 10px  20px  #69DBEC,
+            -10px -10px 20px #69DBEC
+}
+nav{
+    background-color: #343a408e !important;
+    border-bottom: 1px solid hwb(188 55% 5% / 0.6);
+}
+ form button{
+    animation: button-move 3s infinite;
+}
+/* common............. */
+a{
+    color:#ccccff!important
+}
+a:hover{
+    color:#fff!important;
+}
+hr{
+    background-color:hwb(188 55% 5% / 0.337)!important; 
+}
+h1{
+    color: white;
+    transition:.5s
+}
+h1:hover{
+    letter-spacing:4px;
+    transform:scale(1.1);
+}
+.picture{
+    text-align: center!important;
+ }
+ .card:hover img{
+     border-radius: 50%;
+     transform: rotate(720deg);
+     transition: all .5s;
+}
+/* ................... */
+@keyframes button-move{
+    0%{ border-radius: 5px;
+        padding: 2px 20px;
+    }
+
+    50%{ border-radius: 20px;
+        padding:7px;}
+
+    100%{ border-radius:5px;
+        padding: 2px 20px;}
+}
+.collap:hover{
+    background-color: #000;
+}
+.carousel-inner h1{
+    text-shadow: 1px solid #000;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, .3);
+    border-radius: 7px;
+}
+.text-colo{
+    color:#69DBEC
+}
+input[type="image"] {
+    height:30px;
+    width: 30px;
+}
+.myicon {
+    border: 1px solid black;
+    border-radius: 17px;
+}
+.row img{
+    height:262px!important;
+    width:262px!important;
+}
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.fixedimg1{
+    background-image: url("../images/pic.jpg");
+}
+.fixedimg2{
+    background-image:url("../images/images.jpg")
+}
+#footer{
+    margin-bottom:0px
+}
